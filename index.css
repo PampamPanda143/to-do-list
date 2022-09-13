@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+:root{
+    --black:rgb(0, 0, 0);
+    --purple:rgb(19, 0, 53);
+    --bord:rgb(77, 4, 38);
+    --grey: rgb(58, 58, 58);
+    --light: rgb(148, 148, 148);
+}
+body {
+  background: linear-gradient(
+    to right top,var(--black), var(--purple), var(--bord)
+  );
+  background-attachment: fixed;
+}
+ .card{
+    margin-top: 40px;
+    position: relative;
+    width: 400px;
+    height: 780px;
+    padding: 40px;
+   box-shadow: 0px 0px 70px 17px rgba(255, 0, 124, 0.6);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom:1px solid var(--black);
+    border-right:1px solid var(--black);
+    color: var(--light);
+    text-align: center;
+} 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    color: rgb(255, 240, 245);
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--bord);
+    padding: 1px;
+}
+p{
+    font-family: "Outfit", Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+h2{
+    padding: 5px;
+    font: 30px;
+    font-family: "Outfit", Verdana, sans-serif;
+}
